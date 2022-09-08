@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-/**
+/*
  *
- * * main - print to screen
+ * main - print to screen
  *
- * *
  *
- * * Return: zero
  *
- * */
+ * Return: zero
+ *
+ */
 
 int main(void)
 
