@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-/*
+ /**
  *
- * main: print to screen
+ * main - print to screen
  *
- *Description: 'the program's description'
+ * Description: using the main function
  *
  * Return: zero
  *
  */
 
 int main(void)
-
 {
 
 char Mystr[] = "\"Programming is like building a multilingual puzzle";
