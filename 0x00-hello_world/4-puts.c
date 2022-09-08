@@ -1,21 +1,25 @@
 #include <stdio.h>
 
- /**
+/**
  *
- * main - print to screen
+ * * main - print to screen
  *
- * this program prints "Programming is like building a multilingual puzzle"
+ * * Description: this program prints "Programming is like building a multilingual puzzle"
  *
- * Return: 0
+ * * Return: 0
  *
- */
+ * */
 
 int main(void)
+
 {
 
-char Mystr[] = "\"Programming is like building a multilingual puzzle";
+		char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
-puts(Mystr);
-return (0);
+
+
+			puts(Mystr);
+
+				return (0);
 
 }
