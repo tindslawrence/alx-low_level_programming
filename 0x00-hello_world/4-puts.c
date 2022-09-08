@@ -2,9 +2,9 @@
 
 /*
  *
- * main - print to screen
+ * main: print to screen
  *
- *
+ *Description: 'the program's description'
  *
  * Return: zero
  *
