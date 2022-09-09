@@ -12,24 +12,24 @@
  *
  *     */
 
+/* Description: prints alphabets*/
+
 int main(void)
 
 {
 
 	    char ch = 'a';
 
-
-
 	        for (ch = 'a'; ch <= 'z'; ch++)
 
-			    putchar(ch);
+			    { 
 
-		    putchar('\n');
+				            puttchar(ch);
 
-		        
+					        }
 
-		        return (0);
+		     putchar('\n');    
 
-			    
+		         return (0);    
 
 }
