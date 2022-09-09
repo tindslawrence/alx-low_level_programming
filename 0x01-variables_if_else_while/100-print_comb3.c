@@ -1,23 +1,30 @@
 #include <stdio.h>
-
 /**
- * main - print 00 to 99
+ * main - print single digit numbers starting from 0
  *
- * Return: zero
+ * Return: returns zero at the end
  */
 int main(void)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; i <= 9; i++)
 	{
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-		if (i == 9)
-			break;
-		putchar(',');
-		putchar(' ');
+		for (j = 1; j <= 9; j++)
+		{
+			if (j > i)
+			{
+				putchar(i + '0');
+				putchar(j + '0');
+				if (i != 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
 }
+
