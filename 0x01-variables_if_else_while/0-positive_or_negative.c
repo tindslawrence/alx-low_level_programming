@@ -6,19 +6,21 @@
 
 /**
  *
- * * main - checks if postive, zero or negative
+ *  * main - checks if postive, zero or negative
  *
- * * Description: "positive, zero, or negative"
+ *   * 
  *
- * * Return: Zero
+ *    * Return: Zero
  *
- */
+ *     */
 
 int main(void)
 
 {
 
 	    int n;
+
+
 
 	        srand(time(0));
 
