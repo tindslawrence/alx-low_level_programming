@@ -1,51 +1,33 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
-
 /**
-
- * main - checks if postive, zero or negative
-
+ * main - print possible combination of 2 digit numbers
  * 
-
- * Return: Zero
-
+ * Return: zero
  */
-
 int main(void)
-
 {
-
-    int n;
-
-
-
-    srand(time(0));
-
-    n = rand() - RAND_MAX / 2;
-
-    if (n > 0)
-
+    int i, p;
+    for (i = 0; i < 100; i++)
     {
+        for (p = 0; p < 100; p++)
+        {
+            if (p > 1 )
+            {
+                putchar((i / 10) + '0');
+                putchar((i % 10) + '0');
+                putchar(' ');
+                putchar((p / 10) + '0');
+                putchar((p % 10) + '0');
+                if (i != 98)
 
-        printf("%d is positive\n", n);
+                {
+                    putchar(',');
+                    putchar(' ');
+                }
 
-    } else if (n == 0)
-
-    {
-
-        printf("%d is zero\n", n);
-
-    } else
-
-    {
-
-        printf("%d is negative\n", n);
-
+            }
+        }
     }
-
+    putchar('\n');
     return (0);
-
 }
