@@ -1,12 +1,12 @@
-#inclide "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 
 /**
- * _strdup - Duplicate a string
- * @str: the string to duplicate
- *
- * Return: the string duplicated
- */
+  * _strdup - Duplicate a string
+  * @str: the string to duplicate
+  *
+  * Return: the string duplicated
+  */
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
@@ -25,7 +25,7 @@ char *_strdup(char *str)
 	if (s == NULL)
 		return (NULL);
 
-	while (a < 1)
+	while (a < i)
 	{
 		s[a] = str[a];
 		a++;
